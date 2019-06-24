@@ -2,6 +2,8 @@ package com.isaquegarcia.aula01.resources.exception;
 
 import java.io.Serializable;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 public class StandardError implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
@@ -31,7 +33,7 @@ public class StandardError implements Serializable {
 	public void setMsg(String msg) {
 		this.msg = msg;
 	}
-
+	
 	public Long getTimeStamp() {
 		return timeStamp;
 	}
