@@ -11,7 +11,6 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import com.isaquegarcia.aula01.domain.Cliente;
-import com.isaquegarcia.aula01.domain.Cliente;
 import com.isaquegarcia.aula01.dto.ClienteDTO;
 import com.isaquegarcia.aula01.repositories.ClienteRepository;
 
